@@ -1,0 +1,22 @@
+clouds:
+  kolla-admin-src:
+    auth:
+      auth_url: url
+      project_domain_name: Default
+      user_domain_name: Default
+      project_name: projectname
+      username: username
+      password: pass
+    region_name: regionname
+    identity_api_version: 3
+    interface: public
+  kolla-admin-dst:
+    auth:
+      auth_url: url
+      project_domain_name: Default
+      user_domain_name: Default
+      project_name: projectname
+      username: username
+      password: pass
+    region_name: regionname
+
